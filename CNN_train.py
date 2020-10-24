@@ -118,7 +118,7 @@ def train_and_evaluate(foldNum, x_train, y_train, xy_validate, x_test, y_test):
 def train(model, x_train, y_train, xy_validate, x_test, y_test):
     history = History()
     earlystop = EarlyStopping(monitor='val_loss', patience=15, verbose=1, mode='min', restore_best_weights=True)
-    model.fit(x=x_train, y=y_train, batch_size=10, epochs=1, verbose=1, callbacks=[earlystop, history], validation_data=xy_validate)
+    model.fit(x=x_train, y=y_train, batch_size=10, epochs=200, verbose=1, callbacks=[earlystop, history], validation_data=xy_validate)
     return history, model
 
 # To see images in batch 1 of train set
