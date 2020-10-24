@@ -2,3 +2,4 @@
 *.npy
 *.rar
 *.h5
+/grid_search/
