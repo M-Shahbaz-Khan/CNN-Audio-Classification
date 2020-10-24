@@ -14,5 +14,5 @@ The xcode watchOS project can be run natively on an Apple Watch with no iPhone c
 
 Tested with:
   - Keras 2.2.4
-  - Tensorflow-gpu 1.13.2 (CUDA 10.0/Cudnn 7.4.2.24)
+  - Tensorflow-gpu 1.13.2 (CUDA 10.0/cuDNN 7.4.2.24)
   - Latest versions of all other packages as of 10/24/2020
