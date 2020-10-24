@@ -10,6 +10,8 @@ Running CNN_hyperparemeter_search.py will give you a list of the 10 best sets of
 
 Running CNN_train.py will train and evaluate a CNN on the .npy data. The results and the model will be saved in the CNN_evaluation folder. converter.py can then be run to convert the .h5 model to the .mlmodel format.
 
+The xcode watchOS project can be run natively on an Apple Watch with no iPhone companion app.
+
 Tested with:
   - Keras 2.2.4
   - Tensorflow-gpu 1.13.2 (CUDA 10.0/Cudnn 7.4.2.24)
