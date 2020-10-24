@@ -345,7 +345,6 @@ def plot_ROC(model, foldNum, x_test, y_test):
     CMlabels = ['2', '3', '4', '5']
     plot_confusion_matrix(cm, CMlabels, normalize=False)
 
-
 for i in range(1, 11):
     x_train, y_train, xy_validate, x_test, y_test = pre_process_oversample(i)
     tuner = train_and_evaluate(i, x_train, y_train, xy_validate, x_test, y_test)
