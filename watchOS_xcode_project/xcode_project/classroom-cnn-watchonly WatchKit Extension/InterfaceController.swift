@@ -143,7 +143,7 @@ class InterfaceController: WKInterfaceController {
                 
                 // get mel-scaled STFT
                 let new_mel_gram = self.stft(buffer: oneMinuteBuffer!)
-                self.saveJsonArray2D(numbers: new_mel_gram, name: "mel_gram")
+                // self.saveJsonArray2D(numbers: new_mel_gram, name: "mel_gram")
                 let stft_model = classroomClassifier_STFT.init()
                 
                 // Load STFT into data type MLMultiArray required by CoreML
