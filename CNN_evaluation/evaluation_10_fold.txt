@@ -1,0 +1,14 @@
+Fold 1
+
+                 precision    recall  f1-score   support
+
+Class Mgmt. (2)       0.90      0.77      0.83       309
+    Lecture (3)       0.78      0.90      0.84       454
+   Practice (4)       0.68      0.65      0.67       138
+        Q&A (5)       0.60      0.54      0.57       178
+
+       accuracy                           0.77      1079
+      macro avg       0.74      0.72      0.73      1079
+   weighted avg       0.77      0.77      0.77      1079
+
+
